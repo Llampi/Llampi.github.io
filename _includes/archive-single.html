@@ -11,6 +11,9 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.tag == 'prueba' %}
+<div>tiene tag</div>
+{% rndif %}
 <div>this is post?</div>
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
