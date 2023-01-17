@@ -14,6 +14,7 @@
 {% if post.tag == 'prueba' %}
 <div>tiene tag</div>
 {% else %}
+<div>no tiene tag</div>
 {% endif %}
 <div>this is post?</div>
 <div class="{{ include.type | default: "list" }}__item">
