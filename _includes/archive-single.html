@@ -22,6 +22,13 @@
 <div>no tiene tag</div>
 {% endif %}
 
+
+{% if post.working == 1 %}
+<div> is working</div>
+{% else %}
+<div> not working</div>
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
