@@ -11,16 +11,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-{% if post.tags == 'prueba1' %}
-<div> si tiene tag prueba</div>
-{% else %}
-<div>no tiene tag prueba</div>
-{% endif %}
-{% if post.tags %}
-<div> si tiene tags: {{post.tags[0]}}</div>
-{% else %}
-<div>no tiene tag</div>
-{% endif %}
+
 
 
 {% if post.working == 1 %}
@@ -78,6 +69,4 @@
 
   </article>
 </div>
-{% else %}
-<div> not working paper</div>
 {% endif %}
