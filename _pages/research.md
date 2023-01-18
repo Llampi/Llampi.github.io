@@ -10,8 +10,18 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
+<div> Working Paper </div>
 {% for post in site.research reversed %}
-  <div>research.md</div>
-  {% include archive-single.html %}
+  {% if post.working == 1 %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+ 
+ 
+ <div> Not Working Paper </div>
+{% for post in site.research reversed %}
+  {% if post.working == 1 %}
+  {% else %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
