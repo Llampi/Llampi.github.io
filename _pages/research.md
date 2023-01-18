@@ -10,7 +10,7 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<div> Working Paper </div>
+<div><h2> Working Paper <h2> </div>
 {% for post in site.research reversed %}
   {% if post.working == 1 %}
     {% include archive-single.html %}
@@ -18,7 +18,7 @@ author_profile: true
 {% endfor %}
  
  
- <div> Not Working Paper </div>
+ <div><h2> Not Working Paper <h2></div>
 {% for post in site.research reversed %}
   {% if post.working == 1 %}
   {% else %}
