@@ -38,5 +38,5 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-
+<script src="/js/tags-script.js"><\/script>
 <script src="{{ base.url | prepend: site.url }}/assets/tags-script.js"></script>
