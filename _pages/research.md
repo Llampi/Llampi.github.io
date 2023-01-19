@@ -27,3 +27,10 @@ author_profile: true
   {% endif %}
 {% endfor %}
  
+ 
+ <div><h2> Work in Progress </h2></div>
+{% for post in site.research reversed %}
+  {% if post.working == 2 %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
