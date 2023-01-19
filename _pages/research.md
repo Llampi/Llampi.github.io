@@ -37,3 +37,6 @@ author_profile: true
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+
+<script src="{{ base.url | prepend: site.url }}/assets/tags-script.js"></script>
