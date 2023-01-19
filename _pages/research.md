@@ -19,7 +19,7 @@ author_profile: true
 {% endfor %}
 
 
-<div><h2> Working Paper </h2> </div>
+<div><h2> Working Papers </h2> </div>
 {% for post in site.research reversed %}
   {% if post.working == 1 %}
     {% include archive-single.html %}
@@ -27,7 +27,7 @@ author_profile: true
 {% endfor %}
  
  
- <div><h2> Publications </h2></div>
+ <div><h2> Work in Progress </h2></div>
 {% for post in site.research reversed %}
   {% if post.working == 2 %}
     {% include archive-single.html %}
