@@ -41,6 +41,4 @@ author_profile: true
 
 {% include tags-script.html %}
 
-#<script type="text/javascript" src="/assets/js/tags-scripts/main.js" ></script>
-#<script src="/js/tags-script.js"><\/script>
-#<script src="{{ base.url | prepend: site.url }}/assets/tags-script.js"></script>
+
