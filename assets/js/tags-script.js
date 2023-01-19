@@ -1,3 +1,5 @@
 $(document).ready( function() {
-    alert('Example of a basic alert box in jquery');
+    $( ".boton_alert" ).click(function() {
+        alert( "Handler for .click() called." );
+    });
 });
