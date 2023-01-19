@@ -10,9 +10,12 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
-
-<div><h2> Publications </h2></div>
+<div>
+    <button onclick="checked('tag1')"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
+    <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
+    <button onclick="checked('tag3')"> <input type="checkbox" id="tag3" disabled="disabled" checked=checked>Tag 3</button>
+</div>
+  <div><h2> Publications </h2></div>
 {% for post in site.research reversed %}
   {% if post.working == 0 %}
     {% include archive-single.html %}
