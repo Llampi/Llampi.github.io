@@ -11,13 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<div>
-  <select name="select">
-    <option value="value1">tag1</option>
-    <option value="value2">tag2</option>
-    <option value="value3">tag3</option>
-  </select>
-</div>
 
 <div><h2> Publications </h2></div>
 {% for post in site.research reversed %}
