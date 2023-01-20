@@ -94,8 +94,8 @@ author_profile: true
     let b_tag = 'b_'+tag;
     let chec = document.getElementById(tag);
     let elemento = document.getElementById(b_tag);
-    if (chec.checked == false){alert("checked false to true");}	
-    else {elemento.style.backgroundColor = "#505050";alert("checked true to false");}
+    if (chec.checked == false){}	
+    else {elemento.style.backgroundColor = "#505050";}
    
     
 	}
