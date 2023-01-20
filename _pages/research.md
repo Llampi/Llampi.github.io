@@ -84,6 +84,7 @@ author_profile: true
   function func_hover(tag){
     let elemento = document.getElementById(tag);
     elemento.style.backgroundColor = "#878484";
+    elemento.style.border = "#2px solid black";
 					      
     
     
@@ -94,7 +95,7 @@ author_profile: true
     let b_tag = 'b_'+tag;
     let chec = document.getElementById(tag);
     let elemento = document.getElementById(b_tag);
-    if (chec.checked == false){}	
+    if (chec.checked == false){elemento.style.border = "#0px solid black";}	
     else {elemento.style.backgroundColor = "#505050";}
    
     
