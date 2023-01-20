@@ -43,14 +43,6 @@ author_profile: true
   alert("prueba tag");
   function checked(tag){
           alert(tag);
-          let chec = document.getElementById(tag)
-          if (chec.checked == false){chec.checked = true; toggle(tag,'block');}
-          else if (chec.checked == true) {chec.checked = false;toggle(tag,'none');}
-
-          
-      } 
-   function toggle(className, displayState){
-          alert("toggle");
-    }
+  }
 
 </script>
