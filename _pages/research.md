@@ -48,6 +48,8 @@ author_profile: true
   function checked(tag){
          
           let chec = document.getElementById(tag);
+	  let b_tag = 'b_'+tag;
+	  alert(b_tag)
           
   
           if (chec.checked == false){
