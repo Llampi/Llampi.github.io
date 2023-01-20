@@ -14,6 +14,7 @@ author_profile: true
     <button onclick="checked('tag1')"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
     <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
     <button onclick="checked('tag3')"> <input type="checkbox" id="tag3" disabled="disabled" checked=checked>Tag 3</button>
+    <button onclick="checked('tag4')"> <input type="checkbox" id="tag4" disabled="disabled" checked=checked>Tag 4</button>
 </div>
   <div><h2> Publications </h2></div>
 {% for post in site.research reversed %}
@@ -40,26 +41,26 @@ author_profile: true
 
 
 <script> 
-  alert("prueba tag");
+  //alert("prueba tag");
   function checked(tag){
-          alert(tag);
+          //alert(tag);
           let chec = document.getElementById(tag);
-          alert(chec.checked);
+          //alert(chec.checked);
   
           if (chec.checked == false){
               chec.checked = true; 
               toggle(tag,'block');
-              alert(chec.checked);
+              //alert(chec.checked);
           }
           else if (chec.checked == true) {
               chec.checked = false;
               toggle(tag,'none');
-              alert(chec.checked);
+              //alert(chec.checked);
           }
   }
   
   function toggle(className, displayState){
-          alert("toggle");
+          //alert("toggle");
           var elements = document.getElementsByClassName(className);
           for (var i = 0; i < elements.length; i++){
                elements[i].style.display = displayState;
