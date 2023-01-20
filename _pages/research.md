@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign button_style = 'margin: 10px;font-size: 16px;width: 200px;height: 50px;padding: 5px;background: #0055ff;color: #fff;outline: none;border-radius: 10px;border: 2px solid black;transition: 0.3s;' %}
+{% assign button_style = 'margin: 10px;font-size: 20px;width: 150px;height: 40px;padding: 5px;background: #0055ff;color: #fff;outline: none;border-radius: 10px;border: 4px solid #0023FF;transition: 0.3s;' %}
 <div>
     <button onclick="checked('tag1')" style="{{button_style}}"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
     <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
