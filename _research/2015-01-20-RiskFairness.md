@@ -18,7 +18,7 @@ citation: 'López Vargas, K. (2014). &quot;Risk Attitudes and Fairness: Theory a
 
 working: 0
 
-etiqueta: ['tag1','tag2','tag3']
+tags: ['tag1','tag2','tag3','tag4']
 ---
 
 
