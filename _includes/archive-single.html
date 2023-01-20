@@ -15,7 +15,7 @@
 
 
 {% assign tags_var = '' %}
-{% for item in post.etiqueta %}
+{% for item in post.tags %}
   {% assign tags_var = tags_var | append: ' ' | append: item %}
 {% endfor %}
 
