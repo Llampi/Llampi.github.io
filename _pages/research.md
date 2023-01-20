@@ -41,20 +41,5 @@ author_profile: true
 
 <script> 
   alert("prueba tag");
-  function checked(tag){
-          alert("tag");
-          //let chec = document.getElementById(tag)
-          //if (chec.checked == false){chec.checked = true; toggle(tag,'block');}
-          //else if (chec.checked == true) {chec.checked = false;toggle(tag,'none');}
-
-          //let divs = ge
-      } 
-
-      function toggle(className, displayState){
-          //var elements = document.getElementsByClassName(className)
-
-          //for (var i = 0; i < elements.length; i++){
-          //    elements[i].style.display = displayState;
-          //}
-      }
+  
 </script>
