@@ -90,8 +90,12 @@ author_profile: true
   }
     
   function func_out(tag){
+    let chec = document.getElementById(tag);
     let elemento = document.getElementById(tag);
-    elemento.style.backgroundColor = "#505050";
+    if (chec.checked == false){elemento.style.backgroundColor = "#505050";}	
+    else {}
+   
+    
 	}
  
             
