@@ -45,6 +45,25 @@ author_profile: true
           alert(tag);
           let chec = document.getElementById(tag);
           alert(chec.checked);
+  
+          if (chec.checked == false){
+              chec.checked = true; 
+              toggle(tag,'block');
+              alert(chec.checked);
+          }
+          else if (chec.checked == true) {
+              chec.checked = false;
+              toggle(tag,'none');
+              alert(chec.checked);
+          }
+  }
+  
+  function toggle(className, displayState){
+          alert("toggle");
+          var elements = document.getElementsByClassName(className);
+          for (var i = 0; i < elements.length; i++){
+               elements[i].style.display = displayState;
+          }
   }
             
 </script>
