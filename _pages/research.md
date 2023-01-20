@@ -90,12 +90,12 @@ author_profile: true
   }
     
   function func_out(tag){
-    alert("out");
+    
     let b_tag = 'b_'+tag;
     let chec = document.getElementById(tag);
     let elemento = document.getElementById(b_tag);
-    if (chec.checked == false){elemento.style.backgroundColor = "#505050";}	
-    else {}
+    if (chec.checked == false){elemento.style.backgroundColor = "#505050";alert("checked false to true");}	
+    else {alert("checked true to false");}
    
     
 	}
