@@ -49,17 +49,20 @@ author_profile: true
          
           let chec = document.getElementById(tag);
 	  let b_tag = 'b_'+tag;
-	  alert(b_tag);
+	  let button_tag = document.getElementById(b_tag);
+	  
           
   
           if (chec.checked == false){
               chec.checked = true; 
               toggle(tag,'block');
+	      button_tag.style.border = "2px solid black";
               
           }
           else if (chec.checked == true) {
               chec.checked = false;
               toggle(tag,'none');
+	      button_tag.style.border = "0px solid black";
               
           }
   }
