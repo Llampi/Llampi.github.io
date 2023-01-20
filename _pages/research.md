@@ -14,10 +14,14 @@ author_profile: true
 {% assign button_style = 'margin: 10px;font-size: 14px;font-weight: bold;width: 100px;height: 30px;padding:1px;background:#505050;color:#efeded;outline:none;
     border-radius: 5px;border: 2px solid black;transition: 0.3s;' %}
 <div>
-    <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover('b_tag1')" onmouseout= "func_out('b_tag1')"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked style="display:none">Tag 1</button>
-    <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
-    <button onclick="checked('tag3')"> <input type="checkbox" id="tag3" disabled="disabled" checked=checked>Tag 3</button>
-    <button onclick="checked('tag4')"> <input type="checkbox" id="tag4" disabled="disabled" checked=checked>Tag 4</button>
+    <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover('b_tag1')" onmouseout= "func_out('b_tag1')">
+	    <input type="checkbox" id="tag1" disabled="disabled" checked=checked style="display:none">Tag 1</button>
+    <button id = "b_tag2" onclick="checked('tag2')" style="{{button_style}}" onmouseover="func_hover('b_tag2')" onmouseout= "func_out('b_tag2')">
+	    <input type="checkbox" id="tag2" disabled="disabled" checked=checked style="display:none">Tag 2</button>
+    <button id = "b_tag3" onclick="checked('tag3')" style="{{button_style}}" onmouseover="func_hover('b_tag3')" onmouseout= "func_out('b_tag3')">
+	    <input type="checkbox" id="tag3" disabled="disabled" checked=checked style="display:none">Tag 3</button>
+    <button id = "b_tag4" onclick="checked('tag4')" style="{{button_style}}" onmouseover="func_hover('b_tag4')" onmouseout= "func_out('b_tag4')">
+	    <input type="checkbox" id="tag4" disabled="disabled" checked=checked style="display:none">Tag 4</button>
 </div>
   <div><h2> Publications </h2></div>
 {% for post in site.research reversed %}
