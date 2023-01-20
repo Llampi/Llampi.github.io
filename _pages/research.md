@@ -56,7 +56,7 @@ author_profile: true
           if (chec.checked == false){
               chec.checked = true; 
               toggle(tag,'block');
-	      button_tag.style.border = "2px solid black";
+	      button_tag.style.border = "4px solid black";
               
           }
           else if (chec.checked == true) {
