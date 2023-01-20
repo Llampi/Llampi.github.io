@@ -61,12 +61,14 @@ author_profile: true
               chec.checked = true; 
               toggle(tag,'block');
 	      button_tag.style.border = "2px solid black";
+	      button_tag.style.backgroundColor = "#505050";
               
           }
           else if (chec.checked == true) {
               chec.checked = false;
               toggle(tag,'none');
 	      button_tag.style.border = "0px solid black";
+	      button_tag.style.backgroundColor = "#878484";
               
           }
   }
