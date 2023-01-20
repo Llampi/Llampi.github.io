@@ -42,18 +42,19 @@ author_profile: true
 <script> 
 
   function checked(tag){
-          let chec = document.getElementById(tag)
-          if (chec.checked == false){chec.checked = true; toggle(tag,'block');}
-          else if (chec.checked == true) {chec.checked = false;toggle(tag,'none');}
+          alert("tag");
+          //let chec = document.getElementById(tag)
+          //if (chec.checked == false){chec.checked = true; toggle(tag,'block');}
+          //else if (chec.checked == true) {chec.checked = false;toggle(tag,'none');}
 
           //let divs = ge
       } 
 
       function toggle(className, displayState){
-          var elements = document.getElementsByClassName(className)
+          //var elements = document.getElementsByClassName(className)
 
-          for (var i = 0; i < elements.length; i++){
-              elements[i].style.display = displayState;
-          }
+          //for (var i = 0; i < elements.length; i++){
+          //    elements[i].style.display = displayState;
+          //}
       }
 </script>
