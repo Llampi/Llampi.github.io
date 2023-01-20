@@ -14,7 +14,7 @@ author_profile: true
 {% assign button_style = 'margin: 10px;font-size: 14px;font-weight: bold;width: 100px;height: 30px;padding:1px;background:#505050;color:#efeded;outline:none;
     border-radius: 5px;border: 2px solid #00000000;transition: 0.3s;' %}
 <div>
-    <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
+    <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover('b_tag1')" onmouseout= "func_out('b_tag1')"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
     <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
     <button onclick="checked('tag3')"> <input type="checkbox" id="tag3" disabled="disabled" checked=checked>Tag 3</button>
     <button onclick="checked('tag4')"> <input type="checkbox" id="tag4" disabled="disabled" checked=checked>Tag 4</button>
