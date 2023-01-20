@@ -17,7 +17,7 @@
 
 
 <div class="{{ include.type | default: "list" }}__item">
-  <div> {{post.etiqueta}} </div>
+  
   <div class="{{post.tag}}">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser %}
@@ -39,7 +39,7 @@
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
         {% endif %}
       </h2>
-
+      <div> {{post.etiqueta[0]}} </div>
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
