@@ -49,7 +49,7 @@ author_profile: true
          
           let chec = document.getElementById(tag);
 	  let b_tag = 'b_'+tag;
-	  alert(b_tag)
+	  alert(b_tag);
           
   
           if (chec.checked == false){
