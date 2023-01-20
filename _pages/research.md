@@ -40,7 +40,7 @@ author_profile: true
 
 
 <script> 
-  alert(tag);
+  alert("prueba tag");
   function checked(tag){
           alert("tag");
           //let chec = document.getElementById(tag)
