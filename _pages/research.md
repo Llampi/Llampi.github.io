@@ -70,16 +70,6 @@ author_profile: true
           }
   }
                                               
-  function func_hover(tag){
-    let elemento = document.getElementById(tag);
-    elemento.style.backgroundColor = "#878484";
-    //elemento.style.border = "4px solid black";
-    
-  }
-    
-  function func_out(tag){
-    let elemento = document.getElementById(tag);
-    elemento.style.backgroundColor = "#505050";
-	}
+ 
             
 </script>
