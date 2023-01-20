@@ -39,6 +39,4 @@ author_profile: true
 {% endfor %}
 
 
-
-
 <script> alert("js"); </script>
