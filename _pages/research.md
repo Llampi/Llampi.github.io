@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 {% assign button_style = 'margin: 10px;font-size: 14px;font-weight: bold;width: 100px;height: 30px;padding:1px;background:#505050;color:#efeded;outline:none;
-    border-radius: 5px;border: 2px solid #00000000;transition: 0.3s;' %}
+    border-radius: 5px;border: 2px solid black;transition: 0.3s;' %}
 <div>
     <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover('b_tag1')" onmouseout= "func_out('b_tag1')"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
     <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
@@ -73,6 +73,7 @@ author_profile: true
   function func_hover(tag){
     let elemento = document.getElementById(tag);
     elemento.style.backgroundColor = "#878484";
+					      
     
     
   }
