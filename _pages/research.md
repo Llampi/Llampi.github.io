@@ -42,4 +42,4 @@ author_profile: true
 {% include tags-script.html %}
 
 
-<script src="{{ site.baseurl }}{% link assets/js/tags-script.js %}" </script>
+<script> alert("js"); </script>
