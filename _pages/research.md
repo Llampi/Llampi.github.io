@@ -14,7 +14,7 @@ author_profile: true
 {% assign button_style = 'margin: 10px;font-size: 14px;font-weight: bold;width: 100px;height: 30px;padding:1px;background:#505050;color:#efeded;outline:none;
     border-radius: 5px;border: 2px solid #00000000;transition: 0.3s;' %}
 <div>
-    <button onclick="checked('tag1')" style="{{button_style}}"> <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
+    <button onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover()" onmouseout= "func_out()" > <input type="checkbox" id="tag1" disabled="disabled" checked=checked>Tag 1</button>
     <button onclick="checked('tag2')"> <input type="checkbox" id="tag2" disabled="disabled" checked=checked>Tag 2</button>
     <button onclick="checked('tag3')"> <input type="checkbox" id="tag3" disabled="disabled" checked=checked>Tag 3</button>
     <button onclick="checked('tag4')"> <input type="checkbox" id="tag4" disabled="disabled" checked=checked>Tag 4</button>
@@ -69,5 +69,18 @@ author_profile: true
                elements[i].style.display = displayState;
           }
   }
+                                              
+                                              
+function func_hover(){
+	let elemento = document.getElementById("tag");
+    elemento.style.backgroundColor = "#878484";
+    //elemento.style.border = "4px solid black";
+    
+    }
+    
+function func_out(){
+	let elemento = document.getElementById("tag");
+    elemento.style.backgroundColor = "#505050";
+	}
             
 </script>
