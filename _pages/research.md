@@ -39,7 +39,6 @@ author_profile: true
 {% endfor %}
 
 
-{% include tags-script.html %}
 
 
 <script> alert("js"); </script>
