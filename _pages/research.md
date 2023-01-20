@@ -43,6 +43,8 @@ author_profile: true
   alert("prueba tag");
   function checked(tag){
           alert(tag);
+          let chec = document.getElementById(tag);
+          alert(chec.checked);
   }
-
+            
 </script>
