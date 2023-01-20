@@ -3,7 +3,7 @@
    ========================================================================== */
 
 $(document).ready(function(){
-  alert('Example of a basic alert box in jquery');
+  
   // FitVids init
   $("#main").fitVids();
 
@@ -78,5 +78,7 @@ $(document).ready(function(){
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+   
+
 
 });
