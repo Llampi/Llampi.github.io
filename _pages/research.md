@@ -41,5 +41,7 @@ author_profile: true
 
 <script> 
   alert("prueba tag");
-  
+  function checked(tag){
+          alert("tag");
+  }
 </script>
