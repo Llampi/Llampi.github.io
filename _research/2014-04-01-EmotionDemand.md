@@ -17,7 +17,7 @@ citation: 'Grosskopf, B. & López Vargas, K. (2014). &quot;On the Demand for Exp
 
 working: 1
 
-tags: ['tag1','tag2','tag3']
+tags: ['Experiment','Laboratory','Fairness','Other-Regarding','Emotions']
 
 ---
 
