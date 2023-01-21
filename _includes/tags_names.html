@@ -1,4 +1,4 @@
-{% assign tags_names = ['tag1','tag2','tag3'] %}
+{% assign tags_names = "one,two,three" | split: "," %}
 
 {% for tag_sample in tags_names %}
   <div>tags_names_ prueba: {{tag_sample}}</div>
