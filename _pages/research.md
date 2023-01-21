@@ -22,14 +22,7 @@ author_profile: true
   	<button id = "b_{{tag_sample}}" onclick="checked('{{tag_sample}}')" style="{{button_style}}" onmouseover="func_hover('b_{{tag_sample}}')" onmouseout= "func_out('{{tag_sample}}')">
 	    <input type="checkbox" id="{{tag_sample}}" disabled="disabled" checked=checked style="display:none">{{tag_sample}}</button>
     {%endfor%}
-    <button id = "b_tag1" onclick="checked('tag1')" style="{{button_style}}" onmouseover="func_hover('b_tag1')" onmouseout= "func_out('tag1')">
-	    <input type="checkbox" id="tag1" disabled="disabled" checked=checked style="display:none">Tag 1</button>
-    <button id = "b_tag2" onclick="checked('tag2')" style="{{button_style}}" onmouseover="func_hover('b_tag2')" onmouseout= "func_out('tag2')">
-	    <input type="checkbox" id="tag2" disabled="disabled" checked=checked style="display:none">Tag 2</button>
-    <button id = "b_tag3" onclick="checked('tag3')" style="{{button_style}}" onmouseover="func_hover('b_tag3')" onmouseout= "func_out('tag3')">
-	    <input type="checkbox" id="tag3" disabled="disabled" checked=checked style="display:none">Tag 3</button>
-    <button id = "b_tag4" onclick="checked('tag4')" style="{{button_style}}" onmouseover="func_hover('b_tag4')" onmouseout= "func_out('tag4')">
-	    <input type="checkbox" id="tag4" disabled="disabled" checked=checked style="display:none">Tag 4</button>
+    
 </div>
   <div><h2> Publications </h2></div>
 {% for post in site.research reversed %}
