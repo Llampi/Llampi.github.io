@@ -10,7 +10,13 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+
 {% include tags_names.html %}
+{% for tag_sample in tags_names %}
+  <div>tags_names_ prueba: {{tag_sample}}</div>
+{%endfor%}
+
+
 {% assign button_style = 'margin: 10px;font-size: 14px;font-weight: bold;width: 100px;height: 30px;padding:1px;background:#505050;color:#efeded;outline:none;
     border-radius: 5px;border: 2px solid black;transition: 0.3s;' %}
 <div>
